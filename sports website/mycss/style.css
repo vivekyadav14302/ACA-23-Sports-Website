@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.left{
+    padding: 20px 80px;
+}
+.left a span{
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    color: yellow;
+}
+.left a span:hover{
+    color: white;
+    
+}
+.left a:hover{
+    color: white;
+    box-shadow: 2px 3px 30px 20px;
+}
+.left a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.3em;
+    text-decoration: none;
+    padding: 1em;
+    font-family: sans-serif;
+    white-space: nowrap;
+    letter-spacing: 1px;
+}
+
+.sideul{
+    position: absolute;
+    top: 4%;
+    left: 75%;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+   ul li {
+    list-style: none;
+  }
+  ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 1em;
+    white-space: nowrap;
+    letter-spacing: 1.5px;
+  }
+   ul li a:hover {
+    border-bottom: 3px solid #fff;
+    color: yellow;
+    box-shadow: 2px 3px 30px 20px;
+  }
+
+
+.header{
+  padding: 20px;
+  height: 100vh;
+  background: url("../images/bg.jpg") no-repeat  center;
+  background-size: cover;
+  position: relative;
+}
+
+.header h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+  }
+.header h1:hover{
+    border-bottom: 3px solid #fff;
+    color: white;
+    box-shadow: 2px 3px 30px 20px;
+}
+  .header .content {
+    position: relative;
+    top: 40%;
+    text-align: center;
+  }
+
+  #bio {
+    display: flex;
+    color: white;
+    padding: 100px 150px 150px 100px;
+    position: center;
+    background: linear-gradient(to bottom, #5cc420, #1b2cce);
+  }
+  
+  #bio h1 {
+    font-size: 325%;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  #bio p {
+    margin-top: 2%;
+    font-weight: 400%;
+    font-family: serif;
+    font-size: 150%;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: sans-serif;
+  }
+
+
+  #achivements {
+    color: white;
+    padding: 100px 100px 150px 50px;
+    position: center;
+    background: linear-gradient(to bottom, #d12c2c, #c7db11);
+  }
+  
+  #achivements h3 {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+
+  #achivements .mylist{
+      margin-top: 70px;
+  }
+  
+  #achivements li {
+      margin-top: 20px;
+      font-family: sans-serif;
+      font-weight: bold;
+  }
